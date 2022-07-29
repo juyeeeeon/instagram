@@ -1,18 +1,30 @@
 <html>
     <head>
+        <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
        <link href="style.css" rel="stylesheet">
     </head>
 
     <body>
-        <div>
-            <img src="https://logos-download.com/wp-content/uploads/2016/03/Instagram_Logo_2016-1536x436.png" width="300px"/>
-            <input type="search" value="검색"/>
+        <div id="top">
+            <img src="https://logos-download.com/wp-content/uploads/2016/03/Instagram_Logo_2016-1536x436.png" width="150px"/>
+            <input type="search" value="🔍검색"/>
+            <div>
+                <i class="fas fa-home"></i>
+                <i class="fas fa-paper-plane"></i>
+                <i class="fas fa-compass"></i>
+                <i class="fas fa-heart"></i>
+            </div>
         </div>
 
         <div id="profile">
-            <img src="image\profile.jpg" width="50px"/>
-            <div>
-                <h2>juyeeeeon</h2>
+            <div id="profile_pic">
+                <img class = "circle_pic" src="image\profile.jpg"/>
+            </div>
+            <div id="profile_info">
+                <div id="id">
+                    juyeeeeon
+                    <i class="fas fa-cog"></i>
+                </div>
                 <button>프로필 편집</button>
             </div>
         </div>
@@ -31,45 +43,68 @@
             </p>
         </div>
 
-        <div>
+        <div id="highlight_area">
             <div class="highlight">
-                <div>
-                    <img src="image/hl 1.jpg" height="35px"/>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/hl 1.jpg"/>
                 </div>
                 <div>
                     😊
                 </div>
             </div>    
             <div class="highlight">
-                <div>
-                    <img src="image/hl 2.jpg" height="35px"/>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/hl 2.jpg"/>
                 </div>
                 <div>
                     😘
                 </div>
             </div>
+            <div></div>
         </div>
 
-        <div>
-            <div>
+        <div id="stat_bar">
+            <div class="stat">
                 게시물<br/>
                 133
             </div>
-            <div>
+            <div class="stat">
                 팔로워<br/>
                 408
             </div>
-            <div>
+            <div class="stat">
                 팔로우<br/>
                 189
             </div>
         </div>
-        <div>아이콘이 들어갈 자리</div>
+        <div id="sub_icons">
+            <div class="seleted">
+                <i class="fas fa-border-all"></i>
+            </div>
+            <div>
+                <i class="fas fa-film"></i>
+            </div>
+            <div>
+                <i class="fas fa-play-circle"></i>
+            </div>
+            <div>
+                <i class="fas fa-bookmark"></i>
+            </div>
+            <div>
+                <i class="fas fa-user-tag"></i>
+            </div>
+
+        </div>
         <div>
-            <img src="image/thumbnails/1.jpg" width="32%"/>
-            <img src="image/thumbnails/2.jpg" width="32%"/>
-            <img src="image/thumbnails/3.jpg" width="32%"/>
-            <img src="image/thumbnails/4.jpg" width="32%"/>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnails/1.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/2.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/3.jpg" class="thumbnail"/>
+            </div>
+            
+            <div class="thumbnail_grid">
+                <img src="image/thumbnails/4.jpg" class="thumbnail"/>
+            </div>
         </div>
     </body>
 </html> 
